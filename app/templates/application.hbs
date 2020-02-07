@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+<div style="display: flex; flex-direction: row;">
+  <div style="padding: 10px; font-size: 2em;">
+    {{#link-to 'example.index'}}Table{{/link-to}}
+  </div>
+  <div style="padding: 10px; font-size: 2em;">
+    {{#link-to 'example.empty'}}Empty{{/link-to}}
+  </div>
+</div>
 {{outlet}}

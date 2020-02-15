@@ -1,7 +1,6 @@
-# em-test-3-14
+# Example Table for Performance Testing
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Testing Ember.js performance on the use cases related to table (list) components. Checks performance of repeated, nested components as most tables are made of rows and cells.
 
 ## Prerequisites
 
